@@ -1,0 +1,3 @@
+import calculator
+
+help(calculator)
