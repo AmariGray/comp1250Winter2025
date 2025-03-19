@@ -1,0 +1,29 @@
+File Manipulation
+    working with the file system to add, update, read and remove data
+
+Why?
+    To save data
+
+What are the operations/possibilities:
+    C   Create
+    R   Read aka View
+    U   update aka Edit
+    D   delete
+
+Two major components
+    Component 1: Locating a PATH
+    component 2: selecting ONE specific file or folder
+
+Modules to work with are
+    os      operating system
+                    CRUD and file manipulation
+
+    sys     python  environment
+                    all behaviour related to python installation
+                        standard input      when you call input()
+                        standard output     when you call print()
+                        standard error      when console text is red
+                        system calls
+
+ARGV        argv
+    argument values
