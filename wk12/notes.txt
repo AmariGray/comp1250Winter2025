@@ -1,0 +1,32 @@
+Working with files
+
+open()
+    filename as string
+    mode as string
+        R   read
+        A   append  write to end of file
+        W   write   write to start of file. WARNING: erases file contents
+
+        R+  primarily to read BUT can also write
+        A+
+        W+  primarily to write BUT can also read
+
+cursor: starting point of the file contents
+
+
+reading methods
+    readline(): returns a string. reads content up to \n char
+    readlines(): returns a list of all lines of file
+                 each index represents ONE line of the file
+    read(): returns a string of all file contents
+
+text-based files
+    .txt, .html, .csv
+binary files
+    media files
+        .mp3, mp4, pdf, docx
+
+csv
+    comma   seperate    values
+
+    a text file with special format =>  organize content in rows and columns
